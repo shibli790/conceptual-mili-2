@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* share item  */
+
+.container{
+    max-width: 1280px;
+    margin: 100px auto;
+
+}
+
+.btn{
+    padding: 15px 25px;
+    background-color: rgb(221, 0, 0);
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 10px;
+        font-size: 1.1rem;
+    font-weight: 600;
+
+}
+.btn-2{
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+
+
+
+/* headeer section */
+.bannar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+
+.about{
+    width: 400px;
+    margin: 100px 0px 100px 100px;
+    
+
+}
+.about h1{
+    font-weight: 700px;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    
+}
+
+.about p{
+    margin: 10px 0px;
+}
+
+.bannar img{
+    display: block;
+    margin-top: 45px;
+}
+
+
+
+/* main section  */
+
+.main-container{
+    display: flex;
+    
+    
+    
+}
+
+.match-con{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 280px;
+    gap: 20px;
+    padding: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+
+.card-section{
+     width: 312px;
+    border: 1px solid rgb(141, 141, 141);
+    height: 240px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+
+
+.img-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px 30px 30px;
+   
+}
+.img-container img{
+    width: 90px;
+    height: 50px;
+   
+
+}
+
+.img-container h5{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;   
+}
+
+
+
+.about-img h1{
+    margin-bottom: 20px;
+    
+
+}
+.about-img p{
+    color: rgb(77, 77, 77);
+}
+
+
+ .card-line{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+
+/* footer section start */
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    background: rgb(22, 22, 22);   
+    width: 100%;
+    height: 300px;
+    
+    
+}
+
+footer hr{
+    margin: 50px 80px ;
+    color: 1px	Middle
+rgba(255, 255, 255, 0.1);
+
+}
+.tag{
+    color: aqua;
+    
+    font-size: 2.8rem;
+    
+
+}
+
+.naver a{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    padding: 40px;
+
+
+}
+
+.news{
+    padding: 50px;
+    
+
+}
+/* footer section end  */
